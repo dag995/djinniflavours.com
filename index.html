@@ -16,19 +16,28 @@
 
   </head>
   
-  <body>      
+  <body>
+
     <div class="wrap">
       <div>
         <img 
           src="./assets/djinni_logo.svg" 
           alt="Djinni Flavours"
           title="Djinni Flavours"
+          class="logo"
         />
+        <img src="./assets/email.svg" alt="Email" title="Email" />
         <h2>contact@djinnigroup.com</h2>
+        
+        <img src="./assets/call.svg" alt="Call" title="Call" />
         <h2>07804425448</h2>
+        
+        <img src="./assets/location.svg" alt="Location" title="Location" />
         <h2>Unit 12a, Port Talbot Workshops,<br />SA12 6HZ</h2>
       </div>
+      
       <div>
+        <img src="./assets/fruit.svg" alt="Fruit" title="Fruit" />
         <h3>Fruity</h3>
         <ul>
           <li>Berrylicious</li>
@@ -47,19 +56,25 @@
           <li>Strawberrino</li>
           <li>Strawberrino</li>
         </ul>
+        
+        <img src="./assets/sweet.svg" alt="Sweet" title="Sweet" />
         <h3>Sweet</h3>
         <ul>
           <li>Bubblegum</li>
           <li>Caramel</li>
           <li>Sherbet Lemon</li>
         </ul>
+
+        <img src="./assets/beverage.svg" alt="Beverage" title="Beverage" />
         <h3>Beverage</h3>
         <ul>
           <li>Absinthe</li>
           <li>Cappuccino</li>
         </ul>
       </div>
+
       <div>
+        <img src="./assets/mint.svg" alt="Minty" title="Minty" />
         <h3>Minty</h3>
         <ul>
           <li>Blackdrops</li>
@@ -71,6 +86,8 @@
           <li>Peppermint</li>
           <li>Spearmint</li>
         </ul>
+
+        <img src="./assets/tobacco.svg" alt="Tobacco" title="Tobacco" />
         <h3>Tabacco</h3>
         <ul>
           <li>Amber Blend</li>
@@ -81,6 +98,8 @@
           <li>Tobacco</li>
           <li>Virginia</li>
         </ul>
+
+        <img src="./assets/package.svg" alt="Package" title="Package" />
         <h3>MOQ - 5L</h3>
         <ul>
           <li>Banana</li>
@@ -111,7 +130,7 @@
       }
       h3 {
         text-decoration: underline;
-        margin-bottom:5px;
+        margin:0 0 5px;
       }
       p, li {
         font-size:1.1em;
@@ -139,12 +158,16 @@
         border-right:0;
       }
       .wrap img {
+        max-width:50px;
+      }
+      .wrap img.logo {
         width:100%;
+        max-width: none;
         margin-bottom:10vh;
       }
       .wrap ul {
         list-style-type:none;
-        margin:0;
+        margin:0 0 10px;
         padding:0;
       }
       @media (max-width: 860px) {
